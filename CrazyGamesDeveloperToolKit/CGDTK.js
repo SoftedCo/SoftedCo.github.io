@@ -232,7 +232,7 @@ class CGDTK {
         if (args.TYPE == 'current') {
             return 'Alpha 11'
         } else if (args.TYPE == 'up-to-date') {
-            return fetch('https://softedco.github.io/CrazyGamesDeveloperToolKit/version')
+            return fetch('https://softedco.github.io/CrazyGamesDeveloperToolKit/version').then(response => response.text())
         } else {
             return 'Error'
         }
