@@ -1,4 +1,5 @@
-const url = 'https://github.com/SoftedCo/CrazyGamesDeveloperToolKit#how-to-use';
+const documentationUrl = 'https://github.com/SoftedCo/CrazyGamesDeveloperToolKit#how-to-use';
+const versionUrl = 'https://softedco.github.io/CrazyGamesDeveloperToolKit/version'
 
 class CGDTK {
     getInfo() {
@@ -232,7 +233,7 @@ class CGDTK {
         if (args.TYPE == 'current') {
             return 'Alpha 11'
         } else if (args.TYPE == 'up-to-date') {
-            return fetch('https://softedco.github.io/CrazyGamesDeveloperToolKit/version').then(response => response.text())
+            return fetch(versionUrl).then(response => response.text())
         } else {
             return 'Error'
         }
