@@ -49,7 +49,7 @@ class CGDTK {
                         CD: {
                             type: Scratch.ArgumentType.STRING,
                             menu: 'countryOrDevice',
-                            defaultValue: 'country'
+                            defaultValue: 'country code'
                         }
                     }
                 },
@@ -218,7 +218,7 @@ class CGDTK {
                     items: ['name','version']
                 },
                 countryOrDevice: {
-                    items: ['country','device']
+                    items: ['country code','device']
                 },
                 detections: {
                     items: ['adblock','ad banner','responsive banner container','event listener','page scroll']
