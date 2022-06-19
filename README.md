@@ -1,2 +1,2 @@
-# SoftedCo.github.io
+# softedso.github.io
 Description
