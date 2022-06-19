@@ -35,6 +35,8 @@ Bug fixes.
 Minor interface changes.
 ### Alpha 11 Update 3
 Up-to-date version function is finally working!
+### Alpha 12
+Extension's colors were set to the CrazyGames colors.
 ## Beta State (Functionality)
 ### Beta 1
 Not out yet.
