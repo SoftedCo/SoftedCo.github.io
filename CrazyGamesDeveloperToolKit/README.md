@@ -1,5 +1,6 @@
 # Description
 This extension will help you implement CrazyGames SDK features in you scratch project.
+### Last Version
 # Note
 This extension is work in progress. USE FOR TESTING ONLY!
 # Update Log
