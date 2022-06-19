@@ -235,7 +235,7 @@ class CGDTK {
         } else if (args.TYPE == 'up-to-date') {
             fetch(versionUrl).then(response => {
                 return response.text())
-            }
+            })
         } else {
             return 'Error'
         }
