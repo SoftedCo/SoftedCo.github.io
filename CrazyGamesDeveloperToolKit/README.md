@@ -38,7 +38,7 @@ Up-to-date version function is finally working!
 ### Alpha 12
 Extension's colors were set to the CrazyGames colors.
 ### Alpha 13
-CrazyGames icon added.
+CrazyGames logo added.
 ## Beta State (Functionality)
 ### Beta 1
 Not out yet.
