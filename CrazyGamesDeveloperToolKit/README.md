@@ -47,4 +47,5 @@ Not out yet.
 ### [CrazyGames Ads Guidelines](https://docs.crazygames.com/general/ads-guidelines/)
 ### [Documentation](https://softedco.github.io/CrazyGamesDeveloperToolKit/DOCUMENTATION)
 # Feedback
-Test the extension by pasting [this link](https://softedco.github.io/CrazyGamesDeveloperToolKit/CGDTK.js) into your scratch project extension field. Please report bugs you find at my [scratch profile.](https://scratch.mit.edu/users/softed/)
+### Test the extension by pasting [this link](https://softedco.github.io/CrazyGamesDeveloperToolKit/CGDTK.js) into your scratch project extension field.
+### Please report bugs you find at my [scratch profile.](https://scratch.mit.edu/users/softed/)
