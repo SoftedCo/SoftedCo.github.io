@@ -233,7 +233,9 @@ class CGDTK {
         if (args.TYPE == 'current') {
             return 'Alpha 11'
         } else if (args.TYPE == 'up-to-date') {
-            return fetch(versionUrl).then(response => response.text())
+            fetch(versionUrl).then(response => {
+                return response.text())
+            }
         } else {
             return 'Error'
         }
