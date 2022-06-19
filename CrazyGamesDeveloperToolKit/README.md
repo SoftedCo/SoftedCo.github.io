@@ -57,5 +57,5 @@ Not out yet.
 ### Test the extension by pasting [this link](https://softedco.github.io/CrazyGamesDeveloperToolKit/CGDTK.js) into your scratch project extension field.
 ### Or try it already on Turbowarp
 ### SheepTester's Epiques
-### or Adacraft
+### or Adacraft.
 ### Please report bugs you find at my [scratch profile.](https://scratch.mit.edu/users/softed/)
