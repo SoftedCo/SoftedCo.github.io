@@ -7,7 +7,7 @@ class CGDTK {
             id: 'CGDTK',
             color1: '#6937b9',
             color2: '#27193f',
-            color3: '#27193f',
+            color3: '#ffffff',
             name: 'CrazyGames Developer ToolKit',
             blocks: [
                 {
