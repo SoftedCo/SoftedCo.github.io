@@ -28,6 +28,8 @@ Added a function related with getting info about user's country and device.
 Added 2 reporter blocks related with invite links.
 ### Alpha 11
 Added a button that opens the documentation.
+### Alpha 11 Updat
+Bug fixes.
 ## Beta State (Functionality)
 ### Beta 1
 Not out yet.
