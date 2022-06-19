@@ -1,9 +1,16 @@
+const url = 'https://github.com/SoftedCo/CrazyGamesDeveloperToolKit#how-to-use';
+
 class CGDTK {
     getInfo() {
         return {
             id: 'CGDTK',
             name: 'CrazyGames Developer ToolKit',
             blocks: [
+                {
+                    opcode: 'documentation',
+                    blockType: Scratch.BlockType.BUTTON,
+                    text: 'Open documentation'
+                },
                 {
                     opcode: 'version',
                     blockType: Scratch.BlockType.REPORTER,
@@ -218,11 +225,14 @@ class CGDTK {
             }
         };
     }
+    documentation() {
+        window.open(url, '_blank')
+    }
     version(args) {
         if (args.TYPE == 'current') {
-            return 'Alpha 10'
+            return 'Alpha 11'
         } else if (args.TYPE == 'up-to-date') {
-            return 'Alpha 10'
+            return fetch('https://softedco.github.io/CrazyGamesDeveloperToolKit/version')
         } else {
             return 'Error'
         }
