@@ -1,0 +1,47 @@
+# Description
+This extension will help you implement CrazyGames SDK features in you scratch project.
+# Note
+This extension is work in progress. USE FOR TESTING ONLY!
+# Update Log
+## Alpha State (Interface)
+### Alpha 1
+First version of the extension, main code added.
+### Alpha 2
+Code is now working on turbowarp! (Sort of.) Added a new reporter block that returns the extension current version.
+### Alpha 3
+Added a new reporter block that returns the extension up-to-date version.
+### Alpha 4
+Fixed an issue with turbowarp not displaying the 'userinfo' reporter block. Moved the up-to-date version function to the new updated version reporter. Note: The up-to-date version function is not working because I still didn't figure out how to setup a file hosting on github to host the up-to-date version file.
+### Alpha 5
+Biggest update so far! Added new functions related to event listeners, responsive banner containers and etc.
+### Alpha 5 Update
+Code is now rewritten and some functions are optimized.
+### Alpha 6
+Some of the new functions related with detection were combined in the new detector function.
+### Alpha 7
+A function related with responsive banner containers was moved to the new banner function, which optimized the code and fixed an issue with responsive banner container function not displaying the dropdown menu properly.
+### Alpha 8
+Added a function related with page scroll locking. The detector function now has the option to detect if the page scroll is active.
+### Alpha 9
+Added a function related with getting info about user's country and device.
+### Alpha 10
+Added 2 reporter blocks related with invite links.
+### Alpha 11
+Added a button that opens the documentation.
+## Beta State (Functionality)
+### Beta 1
+Not out yet.
+## Pre-Release State (Polishing)
+### Pre-Release 1
+Not out yet.
+## Release State (Releases)
+### Release 1
+Not out yet.
+## Post-Release Updates (Optimization)
+### Release 1 Update 1
+Not out yet.
+# How To Use
+[CrazyGames SDK](https://docs.crazygames.com/sdk/html5/)
+[CrazyGames Ads Guidelines](https://docs.crazygames.com/general/ads-guidelines/)
+# Feedback
+Test the extension by pasting [this link](https://softedco.github.io/CrazyGamesDeveloperToolKit/CGDTK.js) into your scratch project extension field. Please report bugs you find at my [Scratch Profile.](https://scratch.mit.edu/users/softed/)
