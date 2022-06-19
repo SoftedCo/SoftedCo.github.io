@@ -15,7 +15,7 @@ Added a new reporter block that returns the extension up-to-date version.
 Fixed an issue with turbowarp not displaying the 'userinfo' reporter block. Moved the up-to-date version function to the new updated version reporter. Note: The up-to-date version function is not working because I still didn't figure out how to setup a file hosting on github to host the up-to-date version file.
 ### Alpha 5
 Biggest update so far! Added new functions related to event listeners, responsive banner containers and etc.
-### Alpha 5 Update
+### Alpha 5 Update 1
 Code is now rewritten and some functions are optimized.
 ### Alpha 6
 Some of the new functions related with detection were combined in the new detector function.
