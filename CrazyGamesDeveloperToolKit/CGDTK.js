@@ -1,5 +1,5 @@
 const documentationUrl = 'https://github.com/SoftedCo/CrazyGamesDeveloperToolKit#how-to-use';
-const versionUrl = 'https://softedco.github.io/CrazyGamesDeveloperToolKit/version'
+const versionUrl = 'https://softedco.github.io/CrazyGamesDeveloperToolKit/version';
 
 class CGDTK {
     getInfo() {
