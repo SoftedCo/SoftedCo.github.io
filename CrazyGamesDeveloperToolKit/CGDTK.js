@@ -227,7 +227,7 @@ class CGDTK {
         };
     }
     documentation() {
-        window.open(url, '_blank')
+        window.open(documentationUrl, '_blank')
     }
     version(args) {
         if (args.TYPE == 'current') {
