@@ -31,12 +31,12 @@ class CGDTK {
                     arguments: {
                         OB: {
                             type: Scratch.ArgumentType.STRING,
-                            menu: 'osorbrowser',
+                            menu: 'osOrBrowser',
                             defaultValue: 'OS'
                         },
                         NV: {
                             type: Scratch.ArgumentType.STRING,
-                            menu: 'nameorversion',
+                            menu: 'nameOrVersion',
                             defaultValue: 'name'
                         }
                     }
@@ -48,7 +48,7 @@ class CGDTK {
                     arguments: {
                         CD: {
                             type: Scratch.ArgumentType.STRING,
-                            menu: 'countryordevice',
+                            menu: 'countryOrDevice',
                             defaultValue: 'country'
                         }
                     }
@@ -88,7 +88,7 @@ class CGDTK {
                     arguments: {
                         STATE: {
                             type: Scratch.ArgumentType.STRING,
-                            menu: 'adstate',
+                            menu: 'adStates',
                             defaultValue: 'start'
                         }
                     }
@@ -100,7 +100,7 @@ class CGDTK {
                     arguments: {
                         ACT: {
                             type: Scratch.ArgumentType.STRING,
-                            menu: 'eventlisteneractions',
+                            menu: 'eventListenerActions',
                             defaultValue: 'Install'
                         }
                     }
@@ -112,7 +112,7 @@ class CGDTK {
                     arguments: {
                         STATE: {
                             type: Scratch.ArgumentType.STRING,
-                            menu: 'loadingstate',
+                            menu: 'loadingStates',
                             defaultValue: 'started'
                         }
                     }
@@ -124,7 +124,7 @@ class CGDTK {
                     arguments: {
                         STATE: {
                             type: Scratch.ArgumentType.STRING,
-                            menu: 'gameplaystate',
+                            menu: 'gameplayStates',
                             defaultValue: 'started/resumed'
                         }
                     }
@@ -136,7 +136,7 @@ class CGDTK {
                     arguments: {
                         TYPE: {
                             type: Scratch.ArgumentType.STRING,
-                            menu: 'adtype',
+                            menu: 'adTypes',
                             defaultValue: 'rewarded'
                         }
                     }
@@ -148,7 +148,7 @@ class CGDTK {
                     arguments: {
                         BC: {
                             type: Scratch.ArgumentType.STRING,
-                            menu: 'bannerorcontainer',
+                            menu: 'bannerOrContainer',
                             defaultValue: 'an ad banner'
                         },
                         RES: {
@@ -165,7 +165,7 @@ class CGDTK {
                     arguments: {
                         BC: {
                             type: Scratch.ArgumentType.STRING,
-                            menu: 'bannerorcontainer',
+                            menu: 'bannerOrContainer',
                             defaultValue: 'a responsive banner container'
                         }
                     }
@@ -177,7 +177,7 @@ class CGDTK {
                     arguments: {
                         ACT: {
                             type: Scratch.ArgumentType.STRING,
-                            menu: 'pagescrollactions',
+                            menu: 'pageScrollActions',
                             defaultValue: 'Disable'
                         }
                     }
@@ -187,37 +187,37 @@ class CGDTK {
                 versions: {
                     items: ['current','up-to-date']
                 },
-                adtype: {
+                adTypes: {
                     items: ['rewarded','midgame']
                 },
-                adstate: {
+                adStates: {
                     items: ['start','stop','error']
                 },
-                eventlisteneractions: {
+                eventListenerActions: {
                     items: ['Install','Remove']
                 },
-                pagescrollactions: {
+                pageScrollActions: {
                     items: ['Enable','Disable']
                 },
-                loadingstate: {
+                loadingStates: {
                     items: ['started','stopped']
                 },
-                gameplaystate: {
+                gameplayStates: {
                     items: ['started/resumed','stopped/paused','celebrated']
                 },
                 resolution: {
                     items: ['970*90','320*50','160*600','336*280','728*90','300*600','468*60','970*250','300*250','250*250','120*600']
                 },
-                bannerorcontainer: {
+                bannerOrContainer: {
                     items: ['an ad banner','a responsive banner container']
                 },
-                osorbrowser: {
+                osOrBrowser: {
                     items: ['OS','browser']
                 },
-                nameorversion: {
+                nameOrVersion: {
                     items: ['name','version']
                 },
-                countryordevice: {
+                countryOrDevice: {
                     items: ['country','device']
                 },
                 detections: {
