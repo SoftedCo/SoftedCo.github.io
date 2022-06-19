@@ -15,7 +15,7 @@ class CGDTK {
                 {
                     opcode: 'version',
                     blockType: Scratch.BlockType.REPORTER,
-                    text: 'Extension [TYPE] version',
+                    text: 'Extension`s [TYPE] version',
                     arguments: {
                         TYPE: {
                             type: Scratch.ArgumentType.STRING,
