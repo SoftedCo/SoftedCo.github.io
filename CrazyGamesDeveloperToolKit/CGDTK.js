@@ -25,9 +25,9 @@ class CGDTK {
                     }
                 },
                 {
-                    opcode: 'userinfo',
+                    opcode: 'userInfo',
                     blockType: Scratch.BlockType.REPORTER,
-                    text: 'Get info about user [OB] [NV]',
+                    text: 'Get info about user`s [OB] [NV]',
                     arguments: {
                         OB: {
                             type: Scratch.ArgumentType.STRING,
@@ -42,9 +42,9 @@ class CGDTK {
                     }
                 },
                 {
-                    opcode: 'countryordeviceuserinfo',
+                    opcode: 'countryOrDeviceUserInfo',
                     blockType: Scratch.BlockType.REPORTER,
-                    text: 'Get info about user [CD]',
+                    text: 'Get info about user`s [CD]',
                     arguments: {
                         CD: {
                             type: Scratch.ArgumentType.STRING,
@@ -54,7 +54,7 @@ class CGDTK {
                     }
                 },
                 {
-                    opcode: 'invitelinkgenerator',
+                    opcode: 'inviteLinkGenerator',
                     blockType: Scratch.BlockType.REPORTER,
                     text: 'Generate an invite link with [DATA]',
                     arguments: {
@@ -65,7 +65,7 @@ class CGDTK {
                     }
                 },
                 {
-                    opcode: 'invitelinkreciever',
+                    opcode: 'inviteLinkReciever',
                     blockType: Scratch.BlockType.REPORTER,
                     text: 'Invite link data'
                 },
@@ -82,9 +82,9 @@ class CGDTK {
                     }
                 },
                 {
-                    opcode: 'adstate',
+                    opcode: 'adState',
                     blockType: Scratch.BlockType.BOOLEAN,
-                    text: 'Ad break [STATE] state',
+                    text: 'Is an ad break at the [STATE] state?',
                     arguments: {
                         STATE: {
                             type: Scratch.ArgumentType.STRING,
@@ -94,7 +94,7 @@ class CGDTK {
                     }
                 },
                 {
-                    opcode: 'eventlistener',
+                    opcode: 'eventListener',
                     blockType: Scratch.BlockType.COMMAND,
                     text: '[ACT] an event listener',
                     arguments: {
@@ -106,7 +106,7 @@ class CGDTK {
                     }
                 },
                 {
-                    opcode: 'loadingtrigger',
+                    opcode: 'loadingTrigger',
                     blockType: Scratch.BlockType.COMMAND,
                     text: 'Set loading state at [STATE]',
                     arguments: {
@@ -118,7 +118,7 @@ class CGDTK {
                     }
                 },
                 {
-                    opcode: 'gameplaytrigger',
+                    opcode: 'gameplayTrigger',
                     blockType: Scratch.BlockType.COMMAND,
                     text: 'Set gameplay state at [STATE]',
                     arguments: {
@@ -130,7 +130,7 @@ class CGDTK {
                     }
                 },
                 {
-                    opcode: 'adbreak',
+                    opcode: 'adBreak',
                     blockType: Scratch.BlockType.COMMAND,
                     text: 'Start a [TYPE] ad break',
                     arguments: {
@@ -142,7 +142,7 @@ class CGDTK {
                     }
                 },
                 {
-                    opcode: 'adbanner',
+                    opcode: 'adBanner',
                     blockType: Scratch.BlockType.COMMAND,
                     text: 'Add [BC] with [RES] resolution',
                     arguments: {
@@ -159,7 +159,7 @@ class CGDTK {
                     }
                 },
                 {
-                    opcode: 'bannerremove',
+                    opcode: 'bannerRemove',
                     blockType: Scratch.BlockType.COMMAND,
                     text: 'Remove [BC]',
                     arguments: {
@@ -171,7 +171,7 @@ class CGDTK {
                     }
                 },
                 {
-                    opcode: 'pagescroll',
+                    opcode: 'pageScroll',
                     blockType: Scratch.BlockType.COMMAND,
                     text: '[ACT] page scroll',
                     arguments: {
@@ -240,7 +240,7 @@ class CGDTK {
             return 'Error'
         }
     }
-    userinfo(args) {
+    userInfo(args) {
         if (args.OB == 'OS') {
             if (args.NV == 'name') {
                 return 'Work In Progress'
@@ -261,19 +261,19 @@ class CGDTK {
             return 'Error'
         }
     }
-    countryordeviceuserinfo(args) {
+    countryOrDeviceUserInfo(args) {
         return 'Work In Progress'
     }
-    invitelinkgenerator() {
+    inviteLinkGenerator() {
         return 'Work In Progress'
     }
-    invitelinkreciever() {
+    inviteLinkReciever() {
         return 'Work In Progress'
     }
     detector(args) {
         return 'Work In Progress'
     }
-    adstate(args) {
+    adState(args) {
         if (args.STATE == 'start') {
             return 'Work In Progress'
         } else if (args.STATE == 'stop') {
@@ -284,7 +284,7 @@ class CGDTK {
             return 'Error'
         }
     }
-    eventlistener(args) {
+    eventListener(args) {
         if (args.ACT == 'Install') {
             return 'Work In Progress'
         } else if (args.ACT == 'Remove') {
@@ -293,7 +293,7 @@ class CGDTK {
             return 'Error'
         }
     }
-    adbreak(args) {
+    adBreak(args) {
         if (args.TYPE == 'rewarded') {
             return 'Work In Progress'
         } else if (args.TYPE=='midgame') {
@@ -302,7 +302,7 @@ class CGDTK {
             return 'Error'
         }
     }
-    loadingtrigger(args) {
+    loadingTrigger(args) {
         if (args.STATE == 'started') {
             return 'Work In Progress'
         } else if (args.STATE == 'stopped') {
@@ -311,7 +311,7 @@ class CGDTK {
             return 'Error'
         }
     }
-    gameplaytrigger(args) {
+    gameplayTrigger(args) {
         if (args.STATE == 'started/resumed') {
             return 'Work In Progress'
         } else if (args.STATE == 'stopped/paused') {
@@ -322,13 +322,13 @@ class CGDTK {
             return 'Error'
         }
     }
-    adbanner(args) {
+    adBanner(args) {
         return 'Work In Progress'
     }
-    bannerremove(args) {
+    bannerRemove(args) {
         return 'Work In Progress'
     }
-    pagescroll(args) {
+    pageScroll(args) {
         return 'Work In Progress'
     }
 }
