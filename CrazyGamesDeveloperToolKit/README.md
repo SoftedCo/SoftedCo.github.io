@@ -37,6 +37,8 @@ Minor interface changes.
 Up-to-date version function is finally working!
 ### Alpha 12
 Extension's colors were set to the CrazyGames colors.
+### Alpha 13
+CrazyGames icon added.
 ## Beta State (Functionality)
 ### Beta 1
 Not out yet.
@@ -58,3 +60,5 @@ Not out yet.
 ### Or try it already on [Turbowarp](https://turbowarp.org/editor?extension=https://softedco.github.io/CrazyGamesDeveloperToolKit/CGDTK.js),
 ### or on [SheepTester's E羊icques](https://sheeptester.github.io/scratch-gui/?url=https://softedco.github.io/CrazyGamesDeveloperToolKit/CGDTK.js).
 ### Please report bugs you find at my [scratch profile.](https://scratch.mit.edu/users/softed/)
+# License
+I do not own any of the CrazyGames trademarks or logos, CrazyGames trademarks and logos belong to their respective owners.
