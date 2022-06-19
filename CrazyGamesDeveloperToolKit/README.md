@@ -33,6 +33,8 @@ Added a button that opens the documentation.
 Bug fixes.
 ### Alpha 11 Update 2
 Minor interface changes.
+### Alpha 11 Update 3
+Up-to-date version function is finally working!
 ## Beta State (Functionality)
 ### Beta 1
 Not out yet.
