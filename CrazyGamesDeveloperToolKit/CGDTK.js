@@ -80,14 +80,14 @@ class CGDTK {
                         DETECTION: {
                             type: Scratch.ArgumentType.STRING,
                             menu: 'detections',
-                            defaultValue: 'Adblock'
+                            defaultValue: 'adblock'
                         }
                     }
                 },
                 {
                     opcode: 'adState',
                     blockType: Scratch.BlockType.BOOLEAN,
-                    text: 'Is an ad break at the [STATE] state?',
+                    text: 'Is ad break at the [STATE] state?',
                     arguments: {
                         STATE: {
                             type: Scratch.ArgumentType.STRING,
