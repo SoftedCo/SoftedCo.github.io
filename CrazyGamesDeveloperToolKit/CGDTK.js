@@ -13,7 +13,6 @@ class CGDTK {
             blockIconURI: blockIcon,
             menuIconURI: menuIcon,
             docsURI: 'https://softedco.github.io/CrazyGamesDeveloperToolKit/DOCUMENTATION',
-            docsText: 'Open documentation',
             name: 'CrazyGames Developer ToolKit',
             blocks: [
                 {
