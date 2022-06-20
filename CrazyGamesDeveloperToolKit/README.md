@@ -47,7 +47,7 @@ Ad break state detector was moved to the new state function.
 Bug fixes.
 ### Alpha 16
 The extension was prepared for the beta state.
-### The Alpha State is finished.
+### Alpha State is finished
 From now on the extension's Alpha state is fully finished.
 ## Beta State (Functionality)
 ### Beta 1
