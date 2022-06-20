@@ -52,6 +52,8 @@ From now on the extension's Alpha state is fully finished.
 ## Beta State (Functionality)
 ### Beta 1
 Variables related with detector and state functions added.
+### Beta 1 Update 1
+Minor function changes.
 ## Pre-Release State (Polishing)
 ### Pre-Release 1
 Not out yet.
