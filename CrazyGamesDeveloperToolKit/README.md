@@ -1,6 +1,6 @@
 # Description
 This extension will help you implement CrazyGames SDK elements in you scratch project.
-### [Last Version](https://softedco.github.io/CrazyGamesDeveloperToolKit/#alpha-15)
+### [Last Version](https://softedco.github.io/CrazyGamesDeveloperToolKit/#alpha-16)
 # Note
 This extension is work in progress. USE FOR TESTING ONLY!
 # Update Log
@@ -45,6 +45,8 @@ Open documentation button is now working.
 Ad break state detector was moved to the new state function.
 ### Alpha 15 Update 1
 Bug fixes.
+### Alpha 16
+The extension was prepared for the beta state.
 ## Beta State (Functionality)
 ### Beta 1
 Not out yet.
