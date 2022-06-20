@@ -239,7 +239,7 @@ class CGDTK {
                     items: ['country code','device']
                 },
                 detections: {
-                    items: ['Initialization','adblock','ad banner','responsive banner container','event listener','page scroll']
+                    items: ['Initialization','Adblock','Ad banner','Responsive banner container','Event listener','Page scroll']
                 }
             }
         };
