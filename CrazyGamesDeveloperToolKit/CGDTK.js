@@ -352,7 +352,7 @@ class CGDTK {
                 return eventListener
             } else if (args.DETECTION == 'Page scroll') {
                 return pageScroll
-            } else if (args.DETECTION == 'Initialization' {
+            } else if (args.DETECTION == 'Initialization') {
                 return initialized
             } else {
                 return 'Error'
