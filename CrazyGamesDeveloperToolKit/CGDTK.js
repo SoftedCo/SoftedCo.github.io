@@ -269,15 +269,7 @@ class CGDTK {
         return 'Work In Progress'
     }
     adState(args) {
-        if (args.STATE == 'start') {
-            return 'Work In Progress'
-        } else if (args.STATE == 'stop') {
-            return 'Work In Progress'
-        } else if (args.STATE == 'error') {
-            return 'Work In Progress'
-        } else {
-            return 'Error'
-        }
+        return 'Work In Progress'
     }
     detector(args) {
         return 'Work In Progress'
