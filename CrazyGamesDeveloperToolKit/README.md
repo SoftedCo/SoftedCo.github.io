@@ -48,7 +48,7 @@ Bug fixes.
 ### Alpha 16
 The extension was prepared for the beta state.
 ### The Alpha State is finished.
-From now on the extension Alpha state is fully finished.
+From now on the extension's Alpha state is fully finished.
 ## Beta State (Functionality)
 ### Beta 1
 Not out yet.
