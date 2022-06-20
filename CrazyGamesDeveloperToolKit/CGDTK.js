@@ -172,7 +172,7 @@ class CGDTK {
                         RES: {
                             type: Scratch.ArgumentType.STRING,
                             menu: 'resolution',
-                            defaultValue: '300*250'
+                            defaultValue: '300x250'
                         }
                     }
                 },
