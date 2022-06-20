@@ -87,7 +87,7 @@ class CGDTK {
                 {
                     opcode: 'adState',
                     blockType: Scratch.BlockType.BOOLEAN,
-                    text: 'Ad break [STATE] state true?',
+                    text: 'Is ad break [STATE] state true?',
                     arguments: {
                         STATE: {
                             type: Scratch.ArgumentType.STRING,
