@@ -73,9 +73,16 @@ class CGDTK {
                     text: 'Invite link data'
                 },
                 {
-                    opcode: 'adState',
+                    opcode: 'states',
                     blockType: Scratch.BlockType.REPORTER,
-                    text: 'Ad break state',
+                    text: '[STATES] state',
+                    arguments: {
+                        STATES: {
+                            type: Scratch.ArgumentType.STRING,
+                            menu: 'states',
+                            defaultValue: 'Ad break'
+                        }
+                    }
                 },
                 {
                     opcode: 'detector',
@@ -192,6 +199,9 @@ class CGDTK {
                 pageScrollActions: {
                     items: ['Enable','Disable']
                 },
+                states: {
+                    items: ['Ad break','Gameplay','Loading']
+                },
                 loadingStates: {
                     items: ['started','stopped']
                 },
@@ -221,7 +231,7 @@ class CGDTK {
     }
     version(args) {
         if (args.TYPE == 'current') {
-            return 'Alpha 14'
+            return 'Alpha 15'
         } else if (args.TYPE == 'up-to-date') {
             return fetch(versionUrl).then(response => response.text())
         } else {
