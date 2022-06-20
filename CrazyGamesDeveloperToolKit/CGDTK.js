@@ -355,7 +355,7 @@ class CGDTK {
             } else if (args.DETECTION == 'Initialization' {
                 return initialized
             } else {
-                return 'Error
+                return 'Error'
             }
         } if (initialized == 'false') {
             if (args.DETECTION == 'Initialization') {
