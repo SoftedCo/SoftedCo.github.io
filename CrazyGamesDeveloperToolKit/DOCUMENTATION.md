@@ -1,2 +1,2 @@
-# Documentaion
+# Documentation
 Not out yet.
