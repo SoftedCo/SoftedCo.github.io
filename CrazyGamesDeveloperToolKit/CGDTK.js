@@ -252,7 +252,7 @@ class CGDTK {
     }
     version(args) {
         if (args.TYPE == 'current') {
-            return 'Beta 2'
+            return 'Beta 3'
         } else if (args.TYPE == 'up-to-date') {
             return fetch(versionUrl).then(response => response.text())
         } else {
