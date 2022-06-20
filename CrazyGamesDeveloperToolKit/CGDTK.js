@@ -268,7 +268,7 @@ class CGDTK {
     inviteLinkReciever() {
         return 'Work In Progress'
     }
-    adState(args) {
+    states(args) {
         return 'Work In Progress'
     }
     detector(args) {
