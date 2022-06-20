@@ -87,7 +87,7 @@ class CGDTK {
                 {
                     opcode: 'adState',
                     blockType: Scratch.BlockType.BOOLEAN,
-                    text: 'Is an ad break at the [STATE] state?',
+                    text: 'Ad break [STATE] state true?',
                     arguments: {
                         STATE: {
                             type: Scratch.ArgumentType.STRING,
@@ -224,7 +224,7 @@ class CGDTK {
                     items: ['country code','device']
                 },
                 detections: {
-                    items: ['an adblock','an ad banner','a responsive banner container','an event listener','a page scroll']
+                    items: ['adblock','ad banner','responsive banner container','event listener','page scroll']
                 }
             }
         };
