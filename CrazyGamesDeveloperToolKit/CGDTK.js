@@ -73,6 +73,11 @@ class CGDTK {
                     text: 'Invite link data'
                 },
                 {
+                    opcode: 'adState',
+                    blockType: Scratch.BlockType.REPORTER,
+                    text: 'Ad break state',
+                },
+                {
                     opcode: 'detector',
                     blockType: Scratch.BlockType.BOOLEAN,
                     text: 'Is [DETECTION] active?',
@@ -81,18 +86,6 @@ class CGDTK {
                             type: Scratch.ArgumentType.STRING,
                             menu: 'detections',
                             defaultValue: 'adblock'
-                        }
-                    }
-                },
-                {
-                    opcode: 'adState',
-                    blockType: Scratch.BlockType.BOOLEAN,
-                    text: 'Is ad break [STATE] state true?',
-                    arguments: {
-                        STATE: {
-                            type: Scratch.ArgumentType.STRING,
-                            menu: 'adStates',
-                            defaultValue: 'start'
                         }
                     }
                 },
@@ -193,9 +186,6 @@ class CGDTK {
                 adTypes: {
                     items: ['rewarded','midgame']
                 },
-                adStates: {
-                    items: ['start','stop','error']
-                },
                 eventListenerActions: {
                     items: ['Install','Remove']
                 },
@@ -268,9 +258,6 @@ class CGDTK {
     inviteLinkReciever() {
         return 'Work In Progress'
     }
-    detector(args) {
-        return 'Work In Progress'
-    }
     adState(args) {
         if (args.STATE == 'start') {
             return 'Work In Progress'
@@ -281,6 +268,9 @@ class CGDTK {
         } else {
             return 'Error'
         }
+    }
+    detector(args) {
+        return 'Work In Progress'
     }
     eventListener(args) {
         if (args.ACT == 'Install') {
