@@ -10,6 +10,7 @@ class CGDTK {
             color1: '#6937b9',
             color2: '#27193f',
             color3: '#27193f',
+            color4: '#6937b9',
             blockIconURI: blockIcon,
             menuIconURI: menuIcon,
             name: 'CrazyGames Developer ToolKit',
