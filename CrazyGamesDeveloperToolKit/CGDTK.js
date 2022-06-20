@@ -107,7 +107,7 @@ class CGDTK {
                         DETECTION: {
                             type: Scratch.ArgumentType.STRING,
                             menu: 'detections',
-                            defaultValue: 'adblock'
+                            defaultValue: 'Initialization'
                         }
                     }
                 },
@@ -239,7 +239,7 @@ class CGDTK {
                     items: ['country code','device']
                 },
                 detections: {
-                    items: ['adblock','ad banner','responsive banner container','event listener','page scroll']
+                    items: ['Initialization','adblock','ad banner','responsive banner container','event listener','page scroll']
                 }
             }
         };
