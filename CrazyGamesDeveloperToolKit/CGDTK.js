@@ -342,18 +342,20 @@ class CGDTK {
     }
     detector(args) {
         if (initialized == 'true') {
-            if (args.DETECTION == 'adblock') {
+            if (args.DETECTION == 'Adblock') {
                 return adBlock
-            } else if (args.DETECTION == 'ad banner') {
+            } else if (args.DETECTION == 'Ad banner') {
                 return adBanner
-            } else if (args.DETECTION == 'responsive banner container') {
+            } else if (args.DETECTION == 'Responsive banner container') {
                 return responsiveBannerContainer
-            } else if (args.DETECTION == 'event listener') {
+            } else if (args.DETECTION == 'Event listener') {
                 return eventListener
-            } else if (args.DETECTION == 'page scroll') {
+            } else if (args.DETECTION == 'Page scroll') {
                 return pageScroll
+            } else if (args.DETECTION == 'Initialization' {
+                return initialized
             } else {
-                return 'Error'
+                return 'Error
             }
         } if (initialized == 'false') {
             if (args.DETECTION == 'Initialization') {
