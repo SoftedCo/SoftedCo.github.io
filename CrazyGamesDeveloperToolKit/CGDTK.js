@@ -57,6 +57,18 @@ class CGDTK {
                     }
                 },
                 {
+                    opcode: 'states',
+                    blockType: Scratch.BlockType.REPORTER,
+                    text: '[STATES] state',
+                    arguments: {
+                        STATES: {
+                            type: Scratch.ArgumentType.STRING,
+                            menu: 'states',
+                            defaultValue: 'Ad break'
+                        }
+                    }
+                },
+                {
                     opcode: 'inviteLinkGenerator',
                     blockType: Scratch.BlockType.REPORTER,
                     text: 'Generate an invite link with [DATA]',
@@ -71,18 +83,6 @@ class CGDTK {
                     opcode: 'inviteLinkReciever',
                     blockType: Scratch.BlockType.REPORTER,
                     text: 'Invite link data'
-                },
-                {
-                    opcode: 'states',
-                    blockType: Scratch.BlockType.REPORTER,
-                    text: '[STATES] state',
-                    arguments: {
-                        STATES: {
-                            type: Scratch.ArgumentType.STRING,
-                            menu: 'states',
-                            defaultValue: 'Ad break'
-                        }
-                    }
                 },
                 {
                     opcode: 'detector',
