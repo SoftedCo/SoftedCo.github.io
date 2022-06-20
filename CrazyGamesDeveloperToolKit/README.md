@@ -56,6 +56,8 @@ Variables related with detector and state functions added.
 Minor function changes.
 ### Beta 2
 Initialization function added.
+### Beta 2 Update 1
+Bug fixes.
 ## Pre-Release State (Polishing)
 ### Pre-Release 1
 Not out yet.
