@@ -12,13 +12,9 @@ class CGDTK {
             color3: '#27193f',
             blockIconURI: blockIcon,
             menuIconURI: menuIcon,
+            docsURI: 'https://softedco.github.io/CrazyGamesDeveloperToolKit/DOCUMENTATION'
             name: 'CrazyGames Developer ToolKit',
             blocks: [
-                {
-                    opcode: 'documentation',
-                    blockType: Scratch.BlockType.BUTTON,
-                    text: 'Open documentation'
-                },
                 {
                     opcode: 'version',
                     blockType: Scratch.BlockType.REPORTER,
@@ -232,9 +228,6 @@ class CGDTK {
                 }
             }
         };
-    }
-    documentation() {
-        window.open(documentationUrl, '_blank')
     }
     version(args) {
         if (args.TYPE == 'current') {
