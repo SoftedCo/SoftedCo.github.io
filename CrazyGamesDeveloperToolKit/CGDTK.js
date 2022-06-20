@@ -96,7 +96,7 @@ class CGDTK {
                 {
                     opcode: 'detector',
                     blockType: Scratch.BlockType.BOOLEAN,
-                    text: 'Is [DETECTION] active?',
+                    text: '[DETECTION] active?',
                     arguments: {
                         DETECTION: {
                             type: Scratch.ArgumentType.STRING,
@@ -285,7 +285,13 @@ class CGDTK {
     }
     states(args) {
         if (args.STATES == 'Ad break') {
-            return adBreakState
+            if (eventListener == 'true') {
+                return adBreakState
+            } else if (eventListener == 'false') {
+                return 'Error'
+            } else {
+                return 'Error
+            }
         } else if (args.STATES == 'Gameplay') {
             return gameplayState
         } else if (args.STATES == 'Loading') {
