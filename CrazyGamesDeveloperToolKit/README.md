@@ -43,6 +43,8 @@ CrazyGames logo added.
 Open documentation button is now working.
 ### Alpha 15
 Ad break state detector was moved to the new state function.
+### Alpha 15 Update 1
+Bug fixes.
 ## Beta State (Functionality)
 ### Beta 1
 Not out yet.
