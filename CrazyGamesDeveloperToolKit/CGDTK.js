@@ -290,7 +290,7 @@ class CGDTK {
             } else if (eventListener == 'false') {
                 return 'Error'
             } else {
-                return 'Error
+                return 'Error'
             }
         } else if (args.STATES == 'Gameplay') {
             return gameplayState
