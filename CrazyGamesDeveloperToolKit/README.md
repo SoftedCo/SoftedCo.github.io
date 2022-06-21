@@ -1,6 +1,6 @@
 # Description
 This extension will help you implement CrazyGames SDK elements in you scratch project.
-### [Last Version](https://softedco.github.io/CrazyGamesDeveloperToolKit/#beta-2)
+### [Last Version](https://softedco.github.io/CrazyGamesDeveloperToolKit/#beta-3)
 # Note
 This extension is work in progress. USE FOR TESTING ONLY!
 # Update Log
