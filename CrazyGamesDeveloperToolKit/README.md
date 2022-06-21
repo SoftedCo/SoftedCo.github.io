@@ -58,6 +58,8 @@ Minor function changes.
 Initialization function added.
 ### Beta 2 Update 1
 Bug fixes.
+### Beta 3
+State function was updated with the addition of ad types.
 ## Pre-Release State (Polishing)
 ### Pre-Release 1
 Not out yet.
