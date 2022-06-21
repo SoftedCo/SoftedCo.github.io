@@ -7,6 +7,7 @@ let initialized = 'false';
 let loadingState = 'stopped';
 let adBreakState = 'error';
 let gameplayState = 'started/resumed';
+let adType = 'error';
 let pageScroll = 'false';
 let eventListener = 'false';
 let responsiveBannerContainer = 'false';
@@ -215,7 +216,7 @@ class CGDTK {
                     items: ['Enable','Disable']
                 },
                 states: {
-                    items: ['Ad break','Gameplay','Loading']
+                    items: ['Ad break','Ad type','Gameplay','Loading']
                 },
                 loadingStates: {
                     items: ['started','stopped']
@@ -250,7 +251,7 @@ class CGDTK {
     }
     version(args) {
         if (args.TYPE == 'current') {
-            return 'Beta 2'
+            return 'Beta 3'
         } else if (args.TYPE == 'up-to-date') {
             return fetch(versionUrl).then(response => response.text())
         } else {
@@ -327,6 +328,8 @@ class CGDTK {
                 } else {
                     return 'Error'
                 }
+            } else if (args.STATES == 'Ad type') {
+                return adType
             } else if (args.STATES == 'Gameplay') {
                 return gameplayState
             } else if (args.STATES == 'Loading') {
@@ -387,10 +390,13 @@ class CGDTK {
     adBreak(args) {
         if (initialized == 'true') {
             if (args.TYPE == 'rewarded') {
+                adType = 'rewarded'
                 return 'Work In Progress'
             } else if (args.TYPE=='midgame') {
+                adType = 'midgame'
                 return 'Work In Progress'
             } else {
+                adType = 'error'
                 return 'Error'
             }
         } if (initialized == 'false') {
