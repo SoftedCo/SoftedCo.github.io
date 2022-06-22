@@ -1,4 +1,5 @@
-### [Main page](https://softedco.github.io/)
+# Fetch By URL
+### To [Main page](https://softedco.github.io/)
 # Description
 This extension will help you fetch data from an URL in your scratch project.
 # Test the extension
