@@ -1,2 +1,2 @@
 # Scratch extensions by softed
-### [CrazyGames Developer ToolKit](https://softedco.github.io/CrazyGamesDeveloperToolKit)
+### [CrazyGames Developer ToolKit (Work in progress)](https://softedco.github.io/CrazyGamesDeveloperToolKit)
