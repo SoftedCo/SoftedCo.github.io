@@ -1,3 +1,4 @@
+### [Return](https://softedco.github.io)
 # Description
 This extension will help you implement CrazyGames SDK elements in you scratch project.
 ### [Last Version](https://softedco.github.io/CrazyGamesDeveloperToolKit/#beta-3)
