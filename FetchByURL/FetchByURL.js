@@ -6,7 +6,7 @@ class FetchByURL {
             blocks: [
                 {
                     opcode: 'fetchByURL',
-                    blockType: Scratch.BlockType.COMMAND,
+                    blockType: Scratch.BlockType.REPORTER,
                     text: 'Fetch data from [URL]',
                     arguments: {
                         URL: {
