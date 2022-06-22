@@ -76,7 +76,7 @@ Not out yet.
 ### [Documentation](https://softedco.github.io/CrazyGamesDeveloperToolKit/DOCUMENTATION)
 # Feedback
 ### Test the extension by pasting [this link](https://softedco.github.io/CrazyGamesDeveloperToolKit/CGDTK.js) into your scratch project extension field.
-### Or try it already on [Turbowarp](https://turbowarp.org/editor?extension=https://softedco.github.io/CrazyGamesDeveloperToolKit/CGDTK.js),
+### Or try it already on [Turbowarp by GarboMuffin](https://turbowarp.org/editor?extension=https://softedco.github.io/CrazyGamesDeveloperToolKit/CGDTK.js),
 ### or on [SheepTester's E羊icques](https://sheeptester.github.io/scratch-gui/?url=https://softedco.github.io/CrazyGamesDeveloperToolKit/CGDTK.js).
 ### Please report bugs you find at my [scratch profile](https://scratch.mit.edu/users/softed/).
 # License
