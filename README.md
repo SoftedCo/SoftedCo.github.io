@@ -2,6 +2,8 @@
 ## Scratch extensions by softed
 ### [CrazyGames Developer ToolKit (Work In Progress)](https://softedco.github.io/CrazyGamesDeveloperToolKit)
 ### [Fetch By URL](https://softedco.github.io/FetchByURL)
+## Games by softed
+None yet.
 ## Other stuff by softed
 ### [New Website Design (Work In Progress)](https://softedco.github.io/NewDesign/)
 ## Softed
