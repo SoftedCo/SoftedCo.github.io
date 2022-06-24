@@ -74,7 +74,7 @@ Not out yet.
 # How To Use
 ### [CrazyGames SDK](https://docs.crazygames.com/sdk/html5/)
 ### [CrazyGames Ads Guidelines](https://docs.crazygames.com/general/ads-guidelines/)
-### [Documentation](https://softedco.github.io/CrazyGamesDeveloperToolKit/DOCUMENTATION)
+### [Documentation](https://softedco.github.io/CrazyGamesDeveloperToolKit/Documentation)
 # Feedback
 ### Test the extension by pasting [this link](https://softedco.github.io/CrazyGamesDeveloperToolKit/CGDTK.js) into your scratch project extension field.
 ### Or try it already on [Turbowarp by GarboMuffin](https://turbowarp.org/editor?extension=https://softedco.github.io/CrazyGamesDeveloperToolKit/CGDTK.js),
