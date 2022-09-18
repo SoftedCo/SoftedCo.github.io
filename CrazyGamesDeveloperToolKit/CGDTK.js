@@ -23,7 +23,7 @@ class CGDTK {
             color3: '#27193f',
             blockIconURI: blockIcon,
             menuIconURI: menuIcon,
-            docsURI: 'https://softedco.github.io/CrazyGamesDeveloperToolKit/DOCUMENTATION',
+            docsURI: 'https://softedco.github.io/CrazyGamesDeveloperToolKit/Documentation',
             name: 'CrazyGames Developer ToolKit',
             blocks: [
                 {
