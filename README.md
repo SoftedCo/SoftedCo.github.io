@@ -10,3 +10,5 @@
 ### [Patreon](https://www.patreon.com/softed)
 ### [Scratch](https://scratch.mit.edu/users/softed/)
 ### [Adacraft](https://www.adacraft.org/people/softed)
+## News
+# The website is currently being remade.
