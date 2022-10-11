@@ -11,4 +11,4 @@
 ### [Scratch](https://scratch.mit.edu/users/softed/)
 ### [Adacraft](https://www.adacraft.org/people/softed)
 ## News
-# The website is currently being remade.
+### The website is currently being remade.
