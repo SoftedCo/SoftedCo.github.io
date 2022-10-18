@@ -69,6 +69,8 @@ From now on the extension's Beta state is fully finished
 ## Pre-Release State (Polishing)
 ### Pre-Release 1
 Removed everything related with ad banners and responsive banner containers due to the fact that they are impossible to implement in javascript.
+### Pre-Release 1 Update
+Minor changes.
 ## Release State (Releases)
 ### Release 1
 Not out yet.
