@@ -63,7 +63,7 @@ Bug fixes.
 ### Beta 3
 State function was updated with the addition of ad types.
 ### Beta 3 Update 1
-Huge code refactoring
+Huge code refactoring.
 ## Pre-Release State (Polishing)
 ### Pre-Release 1
 Not out yet.
