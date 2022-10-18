@@ -1,6 +1,6 @@
 # Main page
 ## Scratch extensions by softed
-### [CrazyGames Developer ToolKit (Work In Progress)](https://softedco.github.io/CrazyGamesDeveloperToolKit)
+### [CrazyGames Developer ToolKit (Cancelled)](https://softedco.github.io/CrazyGamesDeveloperToolKit)
 ### [Fetch By URL](https://softedco.github.io/FetchByURL)
 ## Other stuff by softed
 ### [New Website Design](https://softedco.github.io/NewDesign)
