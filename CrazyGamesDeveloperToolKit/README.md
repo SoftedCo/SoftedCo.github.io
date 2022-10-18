@@ -71,8 +71,6 @@ From now on the extension's Beta state is fully finished
 Removed everything related with ad banners and responsive banner containers due to the fact that they are impossible to implement in javascript.
 ### Pre-Release 1 Update
 Minor changes.
-### End of development
-Unfortunately, it is apparently impossible to implement crazygames sdk into scratch as an extension.
 ## Release State (Releases)
 ### Release 1
 Not out yet.
