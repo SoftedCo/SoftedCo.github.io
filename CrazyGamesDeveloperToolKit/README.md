@@ -64,9 +64,11 @@ Bug fixes.
 State function was updated with the addition of ad types.
 ### Beta 3 Update 1
 Huge code refactoring.
+### Beta state is finished
+From now on the extension's Beta state is fully finished
 ## Pre-Release State (Polishing)
 ### Pre-Release 1
-Not out yet.
+Removed everything related with ad banners and responsive banner containers due to the fact that they are impossible to implement in javascript.
 ## Release State (Releases)
 ### Release 1
 Not out yet.
