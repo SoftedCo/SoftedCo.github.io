@@ -9,6 +9,9 @@ const menuIcon = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAtgAAALQCAYAAACq
 
 const crazysdk = window.CrazyGames.CrazySDK.getInstance();
 
+// Apparently this does not work in the scratch gui editor, it just doesn't load the extension, even if you add the script from the SDK.
+// Hours wasted: a lot
+
 const initerr = 'not initialized';
 const wip = 'work in progress';
 const err = 'error';
