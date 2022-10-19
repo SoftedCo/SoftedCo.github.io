@@ -1,4 +1,4 @@
-# CrazyGames Developer ToolKit (Work In Progress)
+# CrazyGames Developer ToolKit (Cancelled)
 ### To [Main page](https://softedco.github.io)
 # Description
 This extension will help you implement CrazyGames SDK elements in you scratch project.
