@@ -1,3 +1,5 @@
+// Do not proceed
+
 const documentationUrl = 'https://softedco.github.io/CrazyGamesDeveloperToolKit';
 
 const version = 'Pre-Release 1 Update 1';
